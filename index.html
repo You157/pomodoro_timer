@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twin Timer</title>
+  <style type="text/css">
+    body {
+      font-size: larger;
+      line-height: 2;
+    }
+    input {
+      font-size: larger;
+    }
+    audio {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <p>POMODORO TIMER</p>
+  Loop :<input type="number" min="1" value="3" id="loop">
+  <div>count:<span id="loopDisp"></span></div>
+  Work Timer:<input type="number" min="1"  value="25" id="timer1">
+  <div>time:<span id="timer1Disp"></span></div>
+  Rest Timer:<input type="number" min="1"  value="5" id="timer2">
+  <div>time:<span id="timer2Disp"></span></div>
+  <audio src="Japanese_School_Bell02-02.mp3" id="audio" controls></audio>
+  <button id="start">start</button>
+  <button id="stop">stop</button>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
