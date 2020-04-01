@@ -3,4 +3,4 @@
 ポモドーロテクニックという、生産性を向上させるための時間管理術のためのWebアプリです。
 ポモドーロテクニックとは、25分集中して5分休憩を繰り返すテクニックのことを言います。
 
-アプリ：[github pages] (https://you157.github.io/pomodoro_timer/)
+アプリ：[github pages](https://you157.github.io/pomodoro_timer/)
