@@ -1,6 +1,6 @@
 'use strict';
 
-const INTERVAL = 10 //インターバル設定。本番では1000=1秒に設定
+const INTERVAL = 1000;
 let loop;
 let timer1;
 let timer2;
