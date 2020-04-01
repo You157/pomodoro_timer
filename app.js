@@ -63,7 +63,8 @@ function countDownLoop() {
   }
 }
 
-function formatTime(time) { //[分:秒]表示のケタを揃える関数
+function formatTime(time) { 
+  //[分:秒]表示のケタを揃える関数
   const min = Math.floor(time / 60).toString().padStart(2, '0');
   const sec = (time % 60).toString().padStart(2, '0');
   return `${min}:${sec}`;
